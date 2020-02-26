@@ -2,7 +2,7 @@
 """
 Created on Fri Jan 10 09:01:14 2020
 
-@author: eamonn.doyle@libertymutual.com n0273661
+@author: eamonn.doyle@libertymutual.com
 """
 import os, webbrowser
 import PySimpleGUI as sg   
