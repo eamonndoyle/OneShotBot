@@ -24,13 +24,13 @@ window.close()
 text_input = values[0]    
 #sg.popup('You requested information on:', text_input)
 
-Q=(str.upper(text_input)).replace("?","").replace(".","") #Q is question from user, make uppercase and remove ? or !
+Q=(str.upper(text_input)).replace("?","").replace(".","") #Q is question from user, make uppercase and remove ? or .
 
 print((Q),file=g) #append to file to improve answer quality over time
 #print(Q) #for testing
 
 #Setup variables for the shortened  links:
-TIER = "http://jump.lmig.com/b7kcgc"
+TIER = "http://jump.lmig.com/b7kcgc" #downloads a document
 SRM = "http://jump.lmig.com/t2fgfb"
 FIREWALL = FIREWALLS = "http://jump.lmig.com/3embxt"
 CYBERARK = "http://jump.lmig.com/rr34ra"
@@ -39,11 +39,11 @@ VPN = "http://jump.lmig.com/c5exr4"
 VDE = "http://jump.lmig.com/x8rbfw"
 EVENT = TRACKER = "http://jump.lmig.com/pdcmze"
 TROUX = "http://jump.lmig.com/tsgscp"
-EXERCISE = EXERCISES = "http://jump.lmig.com/md2nf8"
-WIKI = "http://jump.lmig.com/3y8zt2"
-RESILIENCY = PORTAL = "http://jump.lmig.com/y4spcn"
+EXERCISE = EXERCISES = "http://jump.lmig.com/xmctgs"
+WIKI = "http://jump.lmig.com/drwiki"
+RESILIENCY = PORTAL = "http://jump.lmig.com/dr"
 IRR = "http://jump.lmig.com/d9f23x"
-STATUS = "http://jump.lmig.com/4b6wxn"
+STATUS = "http://jump.lmig.com/dailystatus"
 OPT = OUT = "http://jump.lmig.com/n7aheb"
 CERTIFICATION = SCORECARD = "http://jump.lmig.com/agk6ef"
 
